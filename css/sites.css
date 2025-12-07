@@ -1,24 +1,40 @@
 body {
-    margin: 0 auto;
-    background-color: #C9D1CA;
-    text-align: center;
+    background-color: #d4ded5;
+    margin: 40px;
+    color: #3d405b;
+    
 }
 
 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
     color: #3d405b;
-    font-family: "Georgia", serif;
-    font-weight:bold;
-    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
     text-align: center;
-    background-color: #C9D1CA;
-    line-height: 3rem;
-    font-size: 1.25rem;
-    text-decoration: none;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
+
 a {
     text-decoration: none;
+    color:#3d405b;
 }
-img {
-    max-width: 100%;
+main {
+    border: 8px double #81b29a;
     margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    width: 85%;
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    width:85%;
 }
